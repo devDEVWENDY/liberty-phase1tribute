@@ -6,4 +6,25 @@
     font-weight: 300;
     text-align: center;
     box-sizing: border-box;
+    padding-bottom: 20px;
 }
+
+h1 {
+    /* 
+        em related to font-size of parent container
+        1em is equal to parent size & 2 em is 2x parent size
+    
+    */
+    font-size: 2em;
+    padding-top: 20px;
+}
+
+#img-div {
+    max-width: 100%;
+    height: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
