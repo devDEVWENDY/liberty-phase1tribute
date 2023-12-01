@@ -9,6 +9,11 @@
     padding-bottom: 20px;
 }
 
+.center-text {
+    max-width: 550px;
+    margin: auto;
+}
+
 h1 {
     /* 
         em related to font-size of parent container
@@ -26,5 +31,16 @@ h1 {
 
 li {
     list-style-type: none;
+}
+
+
+@media all and (max-width: 600px) {
+
+    .center-text > p {
+        color: blueviolet;
+        font-weight: bolder;
+        font-size: larger;
+    }
+
 }
 
